@@ -186,7 +186,7 @@ const Gallery = () => {
     },
   ];
 
-  const categories = ["All", "Code Nakshatra Hackathon", "Trinity's Techjam 1.0", "StartUp-Mindset", "Event's Sponsored By Code Rangers"];
+  const categories = ["All", "Code Nakshatra Hackathon", "Trinity's Techjam 1.0", "StartUp-Mindset", "Event's Sponsored By Code Rangers", "Orientation"];
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const filteredGallery = selectedCategory === "All" ? gallery : gallery.filter((item) => item.category === selectedCategory);
