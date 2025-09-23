@@ -47,7 +47,7 @@ const Home = () => {
                 <br /> ENTER AT YOUR OWN RISK - MAY CAUSE CODE ADDICTION
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/features" className="group relative bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold overflow-hidden">
+                <Link to="https://chat.whatsapp.com/EhJtXopUxnlEg9NS5dq9P6" className="group relative bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold overflow-hidden">
                   <span className="relative z-10 flex items-center justify-center font-mono ">
                     🚀 npm run dev
                     <ChevronDown className="w-5 h-5 ml-2 group-hover:animate-bounce" />
