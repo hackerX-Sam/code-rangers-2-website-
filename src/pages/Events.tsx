@@ -35,7 +35,7 @@ const Events = () => {
       date: "Nov,2025 14",
       time: "9:00AM",
       title: "TechJam2.0 Flagship Hackathon",
-      description: "echJam 2.0 is a flagship offline hackathon that brings together the brightest tech minds for an electrifying 9-to-5 innovation showdown! Participants will brainstorm, build, and pitch creative solutions that push the boundaries of technology and real-world problem-solving. From AI to cybersecurity, and blockchain to open innovation — it’s all about turning bold ideas into impactful reality.Throughout the event, teams will receive mentorship from industry experts, collaborate with like-minded innovators, and compete for exciting prizes and recognition.This isn’t just a hackathon — it’s a launchpad for changemakers, innovators, and future tech leaders ready to shape tomorrow’s world, today.",
+      description: "TechJam 2.0 is a flagship offline hackathon that brings together the brightest tech minds for an electrifying 9-to-5 innovation showdown! Participants will brainstorm, build, and pitch creative solutions that push the boundaries of technology and real-world problem-solving. From AI to cybersecurity, and blockchain to open innovation — it’s all about turning bold ideas into impactful reality.Throughout the event, teams will receive mentorship from industry experts, collaborate with like-minded innovators, and compete for exciting prizes and recognition.This isn’t just a hackathon — it’s a launchpad for changemakers, innovators, and future tech leaders ready to shape tomorrow’s world, today.",
       type: "Hackathon",
       color: "from-green-400 to-cyan-400",
       location: "Microsoft Office Noida",
