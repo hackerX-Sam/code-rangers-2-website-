@@ -35,16 +35,17 @@ const Events = () => {
       date: "Apr,2026 05",
       time: "9:00AM",
       title: "Code Nakshatra 2.0 Hackathon",
-      description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! 💡 Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.
-      location: "Trinity Institute of Innovation and Professional Studies",
-      attendees: 300,
+      description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! 💡 Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
+      type: "Hackathon",
+      location: "TBD",
+      attendees: 300+,
       difficulty: "All Levels",
       link: "",
       tentative: true,
 
     },
     {
-      date: "May 15",
+      date: "May,2025 17",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
@@ -52,7 +53,7 @@ const Events = () => {
       color: "from-orange-500 to-red-500",
       location: "TBD",
       attendees: 200,
-      difficulty: "All Levels",
+      difficulty: "All levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
 
