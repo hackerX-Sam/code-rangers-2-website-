@@ -4,34 +4,6 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "Sep,2025 3",
-      time: "11:00AM",
-      title: "Azure Developer Day X Orientataion",
-      description: "A 2-hour session introducing students to cutting-edge Azure technologies, real-world use cases, and cloud career paths—plus an engaging orientation with fun activities, startup internship insights, and guidance from experienced Azure community speakers.",
-      type: "Workshop",
-      color: "from-cyan-500 to-blue-500",
-      location: "TIIPS Campus",
-      attendees: "100+",
-      difficulty: "Seminar Hall",
-      link: "https://reskilll.com/event/azuredaytrinity",
-      tentative: false,
-
-    },
-    {
-      date: "Sep,2025 12",
-      time: "10:00AM",
-      title: "Smart India Hackathon",
-      description: "Smart India Hackathon (SIH) is a nationwide initiative by the Government of India to provide students a platform to solve pressing real-life problems.",
-      type: "Hackathon",
-      color: "from-purple-500 to-pink-500",
-      location: "Seminar Hall",
-      attendees: "100+",
-      difficulty: "Beginner",
-      link: "https://forms.gle/1JYbtSHaowKCnAit9",
-      tentative: true,
-
-    },
-    {
       date: "Nov,2025 14",
       time: "9:00AM",
       title: "TechJam2.0 Flagship Hackathon",
@@ -46,7 +18,33 @@ const Events = () => {
 
     },
     {
-      date: "Nov 15",
+      date: "Nov,2025 28",
+      time: "9:00AM",
+      title: "Industiral Visit",
+      description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
+      type: "Visit",
+      color: "from-orange-500 to-red-500",
+      location: "TBD",
+      attendees: 200,
+      difficulty: "All Levels",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      tentative: true,
+
+    },
+    {
+      date: "Apr,2026 05",
+      time: "9:00AM",
+      title: "Code Nakshatra 2.0 Hackathon",
+      description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! 💡 Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.
+      location: "Trinity Institute of Innovation and Professional Studies",
+      attendees: 300,
+      difficulty: "All Levels",
+      link: "",
+      tentative: true,
+
+    },
+    {
+      date: "May 15",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
