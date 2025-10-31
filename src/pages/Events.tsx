@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "Nov 2025,14",
+      date: "Nov,2025 14",
       time: "9:00AM",
       title: "TechJam2.0 Flagship Hackathon",
       description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn’t just a hackathon — it’s a launchpad for future tech leaders.",
@@ -18,7 +18,7 @@ const Events = () => {
 
     },
     {
-      date: "Nov 2025,28",
+      date: "Nov,2025 28",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
@@ -32,7 +32,7 @@ const Events = () => {
 
     },
     {
-      date: "Apr 2026,05",
+      date: "Apr,2026 05",
       time: "9:00AM",
       title: "Code Nakshatra 2.0 Hackathon",
       description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
@@ -46,7 +46,7 @@ const Events = () => {
 
     },
     {
-      date: "May 2025,17",
+      date: "May,2026 17",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
