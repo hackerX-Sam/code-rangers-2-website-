@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "2025,14 Nov",
+      date: "Nov,2025 14",
       time: "9:00AM",
       title: "TechJam2.0 Flagship Hackathon",
       description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn’t just a hackathon — it’s a launchpad for future tech leaders.",
