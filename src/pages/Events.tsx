@@ -14,11 +14,11 @@ const Events = () => {
       attendees: 100,
       difficulty: "All Levels",
       link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
-      tentative: false,
+      tentative: true,
 
     },
     {
-      date: "Nov,2025 28",
+      date: "2025,28 Nov",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
@@ -32,7 +32,7 @@ const Events = () => {
 
     },
     {
-      date: "Apr,2026 05",
+      date: "2026,05 Apr",
       time: "9:00AM",
       title: "Code Nakshatra 2.0 Hackathon",
       description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
@@ -46,7 +46,7 @@ const Events = () => {
 
     },
     {
-      date: "May,2026 17",
+      date: "2026,15 May",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
