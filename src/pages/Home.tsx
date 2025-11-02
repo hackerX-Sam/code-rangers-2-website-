@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Rocket, ChevronDown, Monitor, Wifi, Terminal, Users, Cpu, Shield, MessageCircle, Share2 } from "lucide-react";
+import { Rocket, ChevronDown, Monitor, Wifi, Terminal, Users, Cpu, Shield, MessageCircle, Share2, Award, Handshake } from "lucide-react";
 
 import CR3 from "../assets/CR3.png";
 
@@ -23,6 +23,52 @@ const Home = () => {
       title: "Knowledge Sharing",
       description: "Share your projects, get feedback, and learn from others experiences.",
       specs: [],
+    },
+  ];
+
+  const sponsors = [
+    {
+      name: "Sponsor 1",
+      logo: "https://via.placeholder.com/200x100/1e293b/06b6d4?text=Sponsor+1",
+      website: "#",
+    },
+    {
+      name: "Sponsor 2",
+      logo: "https://via.placeholder.com/200x100/1e293b/8b5cf6?text=Sponsor+2",
+      website: "#",
+    },
+    {
+      name: "Sponsor 3",
+      logo: "https://via.placeholder.com/200x100/1e293b/06b6d4?text=Sponsor+3",
+      website: "#",
+    },
+    {
+      name: "Sponsor 4",
+      logo: "https://via.placeholder.com/200x100/1e293b/8b5cf6?text=Sponsor+4",
+      website: "#",
+    },
+  ];
+
+  const communityPartners = [
+    {
+      name: "Partner 1",
+      logo: "https://via.placeholder.com/200x100/1e293b/22c55e?text=Partner+1",
+      website: "#",
+    },
+    {
+      name: "Partner 2",
+      logo: "https://via.placeholder.com/200x100/1e293b/eab308?text=Partner+2",
+      website: "#",
+    },
+    {
+      name: "Partner 3",
+      logo: "https://via.placeholder.com/200x100/1e293b/22c55e?text=Partner+3",
+      website: "#",
+    },
+    {
+      name: "Partner 4",
+      logo: "https://via.placeholder.com/200x100/1e293b/eab308?text=Partner+4",
+      website: "#",
     },
   ];
 
@@ -110,6 +156,84 @@ const Home = () => {
               Explore All Features
               <ChevronDown className="w-4 h-4 ml-1 rotate-[-90deg] group-hover:translate-x-1 transition-transform duration-300" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Sponsors Section */}
+      <section className="relative py-20 border-t border-cyan-500/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center justify-center mb-4">
+              <Award className="w-8 h-8 text-yellow-400 mr-3" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">OUR SPONSORS</span>
+              </h2>
+            </div>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Powered by industry leaders who believe in our mission to shape the future of technology
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {sponsors.map((sponsor, index) => (
+              <a
+                key={index}
+                href={sponsor.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 border border-cyan-500/20 hover:border-yellow-400/50 transition-all duration-500 backdrop-blur-sm overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/5 to-orange-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10 flex items-center justify-center h-24">
+                  <img
+                    src={sponsor.logo}
+                    alt={sponsor.name}
+                    className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute top-2 right-2 w-2 h-2 bg-yellow-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-300"></div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Community Partners Section */}
+      <section className="relative py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center justify-center mb-4">
+              <Handshake className="w-8 h-8 text-green-400 mr-3" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">COMMUNITY PARTNERS</span>
+              </h2>
+            </div>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Collaborating with amazing communities to create a stronger tech ecosystem
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {communityPartners.map((partner, index) => (
+              <a
+                key={index}
+                href={partner.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 border border-cyan-500/20 hover:border-green-400/50 transition-all duration-500 backdrop-blur-sm overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-green-400/5 to-cyan-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10 flex items-center justify-center h-24">
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute top-2 right-2 w-2 h-2 bg-green-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-300"></div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
